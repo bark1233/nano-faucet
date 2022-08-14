@@ -1,8 +1,10 @@
 {
+  
   "name": "nano-faucet",
   "version": "1.0.0",
   "description": "A nice minimal Ethereum faucet that's easy to deploy and simple to operate.",
   "main": "src/index.js",
+  
   "scripts": {
     "start": "node src/index.js",
     "lint": "eslint"
@@ -17,7 +19,7 @@
     "rinkeby"
   ],
   "engines": {
-    "node": ">=9.3.0"
+    "node": "14.15.5"
   },
   "dependencies": {
     "cors": "^2.8.4",
